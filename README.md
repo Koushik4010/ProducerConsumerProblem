@@ -1,6 +1,6 @@
 # ProducerConsumerProblem
 ## Problem Statement
-Implement  ProducerConsumer problem using pthreads.(multiple producers, multiple consumers)
+Implement ProducerConsumer problem using pthreads.(multiple producers, multiple consumers)
    - Bounded Buffer
    - Cyclic Buffer
    - Infinite Buffer 
@@ -12,7 +12,7 @@ Implement  ProducerConsumer problem using pthreads.(multiple producers, multiple
 - Every producer and consumer thread is limited to produce or consume only a finite number of numbers to terminate the program in finite time.
 
 **Cyclic Buffer**
-It is same as bounded buffer but the only change is we used mod operator to explicitly keep on inserting the produced elements into the buffer in a cyclic manner.
+- It is same as bounded buffer but the only change is we used mod operator to explicitly keep on inserting the produced elements into the buffer in a cyclic manner.
 
 **Infinite Buffer**
 - For implementing the infinite buffer we have used linked list so that we keep on inserting the produced elements and consume them without and limitation.
